@@ -32,3 +32,40 @@ header .mt_logo_title {
   color: mediumaquamarine;
   margin: 0 10px;
 }
+
+.frontpage {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.column_large {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+  margin:0 15px;
+}
+
+.column_medium {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin:0 15px;
+
+}
+
+.column_small {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  margin:0 15px;
+
+}
+
+.story,
+.caption {
+  border: 3px solid black;
+}
