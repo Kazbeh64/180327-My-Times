@@ -1,0 +1,34 @@
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+}
+
+header .mt_logo {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-around;
+}
+
+.navbar .link {
+  color: black;
+}
+
+header .mt_logo_title {
+  color: mediumaquamarine;
+  margin: 0 10px;
+}
